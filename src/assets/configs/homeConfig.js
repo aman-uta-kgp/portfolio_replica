@@ -12,26 +12,23 @@ const homeConfig = {
             Hi! I'm <strong className="main-name"> Rodrigo Arenas</strong>
         </h1>,
     titles: [
+        "A Risk Anayst",
         "A Data Scientist",
-        "A Machine Learning Specialist",
-        "An Open Source Contributor",
-        "A Backend Developer",
-        "A Colombian"
+        "A Longhorn"
     ],
     about: {
-        start: "I've been working for over seven years on data science projects. " +
-            "I'm excited by learning new things, contributing to the data science community," +
-            " and spreading the word of data!",
-        exit: "I'm fluent at Python, SQL databases, BI tools, and more, " +
+        start: "With 3 years of experience in risk analytics at American Express and the YC backed startup : Drip Capital, I bring to the table experience in the financial services industry and data science applications" ,
+            
+        exit: "I am fluent with Python, SQL, AWS Sagemaker, and BI tools " +
             "with a deep interest in machine learning."
     },
     workTimeline: [
         {
-            id: "work-4",
-            title: "Sr ML Engineer",
-            company: "EPAM",
+            id: "work-2",
+            title: "Manager - Risk Analytics",
+            company: "Drip Capital, YC & Sequoia backed Series C startup",
             description: "Working to build scalable ML solutions, LLM's, and RAG architectures.",
-            date: "2023-Present",
+            date: "2022-2024",
             icon: <BiRocket/>,
             tags: ["ml", "mlops", "python", "azure", "llm", "automl"]
         },
