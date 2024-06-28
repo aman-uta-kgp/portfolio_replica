@@ -10,6 +10,7 @@ const FooterItems = () => {
                     className={item.className} key={item.id}
                     style={{color: "#f5f5f5"}}
                     target={item.target}
+                    title={item.title}
                     rel={"noopener noreferrer"}>
                     {item.icon}
                 </a>
