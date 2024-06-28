@@ -2,147 +2,86 @@ import {BiGitRepoForked} from "react-icons/bi";
 import {AiFillGithub, AiFillEye} from "react-icons/ai";
 import {ImBook} from "react-icons/im";
 
-import sklearnGenetic from "../images/sklearn_genetic_opt.png"
-import graphEmbeddings from "../images/graph_embeddings.png"
-import kafkaMl from "../images/kafkaml.png"
-import portfolio from "../images/portfolio.png"
+
+import BSM_model_image from "../images/BSM_model_image.png"
+import Binomial from "../images/Binomial_CRR.png"
+import loan from "../images/loan_amortization.jpg"
 
 import React from 'react'
 
 const projectConfig = [
-    {
-        id: "project-5",
-        title: "Sklearn Genetic Opt",
-        links: [
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt",
-                icon: <AiFillGithub/>,
-            },
-            {
-                name: "fork",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/fork",
-                icon: <BiGitRepoForked/>,
-            },
-            {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/subscription",
-                icon: <AiFillEye/>,
-            },
-            {
-                name: "docs",
-                url: "https://sklearn-genetic-opt.readthedocs.io/en/stable/",
-                icon: <ImBook/>,
-            }
-        ],
-        image: sklearnGenetic,
-        description: "scikit-learn models hyperparameters tuning and feature selection, using evolutionary algorithms.",
-        target: "_blank"
-    },
-    {
-        id: "project-4",
-        title: "Graphs Embeddings",
-        links: [
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings",
-                icon: <AiFillGithub/>,
-            },
-            {
-                name: "fork",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings/fork",
-                icon: <BiGitRepoForked/>,
-            },
-            {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings/subscription",
-                icon: <AiFillEye/>,
-            },
-            {
-                name: "docs",
-                url: "https://graph-embeddings.readthedocs.io/",
-                icon: <ImBook/>,
-            }
-        ],
-        image: graphEmbeddings,
-        description: "Graph embeddings for downstream tasks.",
-        target: "_blank"
-    },
+        
+    
     {
         id: "project-3",
-        title: "Kafkaml Anomalies",
+        title: "BSM Options Pricing Model",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection",
+                url: "https://github.com/aman-uta-kgp/BSM_Monte_Carlo_engine",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/fork",
+                url: "https://github.com/aman-uta-kgp/BSM_Monte_Carlo_engine/fork",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/subscription",
+                url: "https://github.com/aman-uta-kgp/BSM_Monte_Carlo_engine/subscription",
                 icon: <AiFillEye/>
             }
         ],
-        image: kafkaMl,
-        description: "Project for real-time anomaly detection using kafka and python.",
+        image: BSM_model_image,
+        description: "Implementation of Black Scholes Merton Option Pricing Model for a non dividend paying European option.",
         target: "_blank"
     },
     {
         id: "project-2",
-        title: "Pyworkforce",
+        title: "Binomial Pricing using CRR Strategy",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/pyworkforce",
+                url: "https://github.com/aman-uta-kgp/binomial_pricing_model",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/pyworkforce/fork",
+                url: "https://github.com/aman-uta-kgp/binomial_pricing_model/fork",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/pyworkforce/subscription",
+                url: "https://github.com/aman-uta-kgp/binomial_pricing_model/subscription",
                 icon: <AiFillEye/>
-            },
-            {
-                name: "docs",
-                url: "https://pyworkforce.readthedocs.io/en/stable/",
-                icon: <ImBook/>,
             }
         ],
-        image: "https://miro.medium.com/max/1400/1*UDnhOFK35IbAPx15wkMgVg.jpeg",
+        image: Binomial,
         description: "Standard tools for workforce management, queuing, scheduling, rostering and optimization problems.",
         target: "_blank"
     },
     {
         id: "project-1",
-        title: "Portfolio Web",
+        title: "Loan Amortization Calculator",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/portfolio",
+                url: "https://github.com/aman-uta-kgp/loan_amortization",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/portfolio/fork",
+                url: "https://github.com/aman-uta-kgp/loan_amortization/fork",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/portfolio/subscription",
+                url: "https://github.com/aman-uta-kgp/loan_amortization/subscription",
                 icon: <AiFillEye/>
             }
         ],
-        image: portfolio,
-        description: "Source code of my current portfolio web page as data scientist.",
+        image: loan,
+        description: "C++ implementation of a vanilla loan amortization schedule.",
         target: "_blank"
     }
 ]

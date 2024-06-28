@@ -7,25 +7,26 @@ const footerConfig = {
     icons: [
         {
             id: "footer-0",
-            url: "https://github.com/rodrigo-arenas",
+            url: "https://github.com/aman-uta-kgp",
             className: "social-icon",
             target: "_blank",
             icon: <AiFillGithub size={50}/>
         },
         {
             id: "footer-1",
-            url: "https://linkedin.com/in/rodrigo-arenas-gomez",
+            url: "https://www.linkedin.com/in/sharmaaman5598",
             className: "social-icon",
             target: "_blank",
             icon: <FaLinkedinIn size={50}/>
-        },
-        {
-            id: "footer-2",
-            url: "https://rodrigo-arenas.medium.com",
-            className: "social-icon",
-            target: "_blank",
-            icon: <BsMedium size={50}/>
         }
+        // ,
+        // {
+        //     id: "footer-2",
+        //     url: "https://medium.com/@aman.sharma_18745",
+        //     className: "social-icon",
+        //     target: "_blank",
+        //     icon: <BsMedium size={50}/>
+        // }
     ]
 }
 

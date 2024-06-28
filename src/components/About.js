@@ -6,6 +6,8 @@ const About = (props) => {
 
   const aboutCardStyle = {
     backgroundColor: "#263238",
+
+    
   };
 
   const cardHeaderStyle = {};
@@ -45,8 +47,13 @@ const About = (props) => {
           className="card-body font-trebuchet text-justify ml-3 mr-3"
           style={cardBodyStyle}
         >
-          {start}
-          <br />
+          {start.map((line,index) => (
+            <React.Fragment key = {index}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}
+          
           {exit}
         </div>
       </div>

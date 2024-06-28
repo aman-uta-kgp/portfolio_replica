@@ -4,72 +4,96 @@ import {DiCodeigniter} from "react-icons/di";
 import {GiCommercialAirplane} from "react-icons/gi";
 import {FaMobileAlt} from "react-icons/fa";
 import { BiRocket } from "react-icons/bi";
+import { FaUserGraduate } from "react-icons/fa6";
+import { BsBank2 } from "react-icons/bs";
+import { IoSchoolSharp } from "react-icons/io5";
 
 const homeConfig = {
 
     greeting:
         <h1 className="heading">
-            Hi! I'm <strong className="main-name"> Rodrigo Arenas</strong>
+            Hi! I'm <strong className="main-name"> Aman Sharma</strong>
         </h1>,
     titles: [
-        "A Risk Anayst",
+        "A Risk Professional",
         "A Data Scientist",
-        "A Longhorn"
+        "A Longhorn",
+        "An IITian"
     ],
     about: {
-        start: "With 3 years of experience in risk analytics at American Express and the YC backed startup : Drip Capital, I bring to the table experience in the financial services industry and data science applications" ,
+        start: ["With ~3 years of experience in risk analytics coupled with an FRM certification,",
+        " I bring to the table expertise in the financial services industry and data science applications"
+
+    ],
             
-        exit: "I am fluent with Python, SQL, AWS Sagemaker, and BI tools " +
-            "with a deep interest in machine learning."
+        exit: "I am currently a grad student UT Austin's MS in Business Analytics - Financial Analytics concentration."
     },
     workTimeline: [
         {
+            id: "work-3",
+            title: ["Graduate Student : MS Business Analytics"],
+            company: (  
+                <div>
+                <p style={{ fontSize: "larger", display: "block", marginTop: "0" }}>UT Austin</p>
+                <div style={{ fontSize: "smaller", display: "block", marginTop: "0" }}> McCombs School of Business</div>
+            </div>
+        ),
+            description : "Coursework : Advaned Machine Learning, Financial Modeling, Fixed Income Analysis",
+            date: "June' 24 - May' 25",
+            icon: <FaUserGraduate/>,
+            tags: ["python", "llm", "R", "SQL"]
+        },
+        
+        {
             id: "work-2",
             title: "Manager - Risk Analytics",
-            company: "Drip Capital, YC & Sequoia backed Series C startup",
-            description: "Working to build scalable ML solutions, LLM's, and RAG architectures.",
-            date: "2022-2024",
+            company: (  
+                <div>
+                <p style={{ fontSize: "larger", display: "block", marginTop: "0" }}>Drip Capital</p>
+                <div style={{ fontSize: "smaller", display: "block", marginTop: "0" }}> YC & Sequoia backed Series C startup</div>
+            </div>
+        ),
+            description: (<ul>
+            <li>Managed risk of loan book sized 50 Mn+ loanbook, 150+ US SMEs </li>
+            <li>Developed ML based probabilistic credit and fraud risk controls</li>
+            <li>Onboarded new data vendors - credit bureaus, alternate data providers etc</li>
+        </ul>),
+            date: "Sep' 22 - May' 24",
             icon: <BiRocket/>,
-            tags: ["ml", "mlops", "python", "azure", "llm", "automl"]
+            tags: ["ml", "AWS", "financial statement analysis", "credit risk modelling", "risk management", "PostgreSQL"]
         },
         {
             id: "work-3",
-            title: "Sr Data Scientist",
-            company: "Globant",
-            description: "Build AutoML models and make them available to non-technical " +
-                "users from a graphical interface.",
-            date: "2021-2023",
-            icon: <DiCodeigniter/>,
-            tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
+            title: "Risk Analyst II",
+            company: (  
+                <div>
+                <p style={{ fontSize: "larger", display: "block", marginTop: "0" }}>American Express</p>
+                <div style={{ fontSize: "smaller", display: "block", marginTop: "0" }}> US Consumer Cards Business</div>
+            </div>),
+            description: (<ul>
+                <li>Managed Sentinel, pre - underwriting risk control, baking in company's macro economic outlook into model threholds</li>
+                <li>Nominated for Howard's Advisory Board as B30 & 35 representative </li>
+            </ul>),
+            date: "Aug' 21 - Sep' 22",
+            icon: <BsBank2/>,
+            tags: ["boosting", "HiveQL", "python", "SAS", "leadership"]
         },
         {
             id: "work-2",
-            title: "BI Manager",
-            company: "Rappi",
-            description: "Leading a team of analysts and data scientists to execute different projects, " +
-                "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
-            date: "2019-2021",
-            icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
-        },
-        {
-            id: "work-1",
-            title: "CRM Analytics Coordinator",
-            company: "Avianca",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
-            icon: <GiCommercialAirplane/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
-        },
-        {
-            id: "work-0",
-            title: "BI Analyst",
-            company: "Onelink BPO",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
-            icon: <BsClipboardData/>,
-            tags: ["python", "mssql", "pbi", "excel"]
+            title: "Undergraduate & Graduate Student",
+            company: (  
+                <div>
+                <p style={{ fontSize: "larger", display: "block", marginTop: "0" }}>IIT Kharagpur</p>
+                <div style={{ fontSize: "smaller", display: "block", marginTop: "0" }}> Bachelors & Masters in Chemical Engineering</div>
+            </div>),
+            description: (<ul>
+                <li>Awared Honorable Mention at graduation</li>
+                <li>International Internship - ML Research Intern, NTHU Taiwan </li>
+                <li>Student Activities - Governor, Business Club; Captain, Inter IIT Case Study Team, NSS Volunteer </li>
+            </ul>),
+            date: "Jul' 16 - Jul' 21",
+            icon: <IoSchoolSharp/>,
+            tags: ["C", "C++", "MATLAB", "neural networks","bayesian optimization", "volunteering"]
         }
     ]
 }
