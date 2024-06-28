@@ -18,6 +18,7 @@ const Skills = () => {
                             <SkillsItems config={skillsConfig.mainSkills}/>
                         </div>
                     </AttentionSeeker>
+                    
 
                     <h1 className="complementary-skills-h1">
                         <span className="complementary-skills"><strong>Tools & Platforms</strong></span>
