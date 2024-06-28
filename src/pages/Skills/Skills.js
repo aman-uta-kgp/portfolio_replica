@@ -20,7 +20,7 @@ const Skills = () => {
                     </AttentionSeeker>
                     
 
-                    <h1 className="complementary-skills-h1">
+                    <h1 className="main-skills-h1">
                         <span className="complementary-skills"><strong>Tools & Platforms</strong></span>
                     </h1>
                     <AttentionSeeker effect={"bounce"}>

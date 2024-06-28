@@ -30,12 +30,20 @@
 }
 
 
-.main-skills-h1,
+.main-skills-h1 {
+    width: 100%;
+    overflow: hidden;
+    vertical-align:middle;
+    color: #ffffff;
+    /* background-color: #66806A; */
+    padding: 5px;
+}
+
 .complementary-skill-h1 {
     width: 100%;
     overflow: hidden;
     vertical-align:middle;
-    color: #f5f5f5;
+    color: white;
     background-color: #66806A;
     padding: 5px;
 }

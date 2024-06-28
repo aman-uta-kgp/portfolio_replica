@@ -25,9 +25,9 @@ const NavBarItems = (props) => {
           )}
         </Nav.Item>
       ))}
-      <Nav.Item>
+      {/* <Nav.Item>
         <GlobalDarkMode />
-      </Nav.Item>
+      </Nav.Item> */}
     </Nav>
   );
 };
