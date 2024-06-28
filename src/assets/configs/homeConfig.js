@@ -4,12 +4,19 @@ import { FaUserGraduate } from "react-icons/fa6";
 import { BsBank2 } from "react-icons/bs";
 import { IoSchoolSharp } from "react-icons/io5";
 
+// Import your image
+import profileImage from '../../assets/images/image_cropped.png'; // Adjust the path as necessary
+
+
 const homeConfig = {
 
     greeting:
+        <div className="greeting-container">
+        <img src={profileImage} alt="Aman Sharma" className="profile-image" />
         <h1 className="heading">
             Hi! I'm <strong className="main-name"> Aman Sharma</strong>
-        </h1>,
+        </h1>
+</div>,
     titles: [
         "A Risk Professional",
         "A Data Scientist",
@@ -22,7 +29,7 @@ const homeConfig = {
 
     ],
             
-        exit: "I am currently a grad student UT Austin's MS in Business Analytics - Financial Analytics concentration."
+        exit: "I am currently a grad student UT Austin's MS program in Business Analytics - Financial Analytics concentration."
     },
     workTimeline: [
         {

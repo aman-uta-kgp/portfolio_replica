@@ -1,3 +1,17 @@
+/* .greeting-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.profile-image {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    margin-right: 20px; /* Adds space between the image and the text */
+}
+
+
 .home-header h1 {
     color: #f5f5f5;
     font-size: 3em;

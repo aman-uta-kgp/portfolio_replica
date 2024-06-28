@@ -1,6 +1,7 @@
 import React from "react";
 
 import { AiFillCode, AiFillHome, AiOutlineGithub } from "react-icons/ai";
+import { RiFilePaperLine } from "react-icons/ri";
 
 import { BsMedium } from "react-icons/bs";
 
@@ -33,7 +34,16 @@ const menuConfig = {
       path: "/skills",
       icon: <AiFillCode size={35} />,
       className: "nav-text",
-    },
+    }
+    ,
+
+    {
+      id: "menu-4",
+      title: "Resume",
+      path: "https://drive.google.com/file/d/1AHxbZNgGrXxRpZCNqWfJ9CtVQqUBZ45q/view?usp=sharing",
+      icon: <RiFilePaperLine size={35} />,
+      className: "nav-text",
+    }
   ],
 };
 
